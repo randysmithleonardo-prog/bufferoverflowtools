@@ -2,7 +2,7 @@
 import socket
 import time
 
-ip = "192.168.1.100"  # CAMBIA ESTO a la ip de tu maquina
+ip = "192.168.1.100"  # CHANGE THIS - put your attacker machine IP here
 port = 9999
 buffer = "A" * 100
 
